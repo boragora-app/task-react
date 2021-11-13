@@ -1,9 +1,4 @@
-FROM node:14
-
-# COPY  app /
+FROM node:16-alpine
 WORKDIR /app
-
 EXPOSE 3000
-
 CMD ["yarn", "start"]
-
